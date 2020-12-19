@@ -1,0 +1,43 @@
+.list{
+    margin-bottom: 10px;
+    align-items: center;
+    border-radius: 30px;
+    line-height: 1em;
+    padding-left: 3em;
+    width: 18em;
+    background-color: whitesmoke;
+    align-items: center;
+    color: black;
+    transition: colour 2s;
+
+}
+
+
+
+.list:hover{
+    background-color: black;
+    color: white;
+}
+.list > h2 {
+    cursor: pointer;
+    font-family: sans-serif;
+    font-weight: 750;
+    border-radius: 50%;
+    font-size: 15px;
+    padding: 5px;
+    display: inline-block;
+    transition: font-size 0.3s;
+}
+
+.list > h2:hover {
+    font-size: 18px;
+}
+.list > li {
+    display: inline;
+    padding-left: 1em;
+    list-style: none;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    font-size: large;
+    font-weight: bolder;
+}
